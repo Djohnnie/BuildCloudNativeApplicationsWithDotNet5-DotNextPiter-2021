@@ -1,0 +1,14 @@
+name: cloudnative-webapi
+services:
+- name: webapi
+  project: WebApi/WebApi.csproj
+- name: worker-service
+  project: WorkerService/WorkerService.csproj
+- name: redis-cache
+  image: redis
+  bindings:
+  - port: 6379
+    connectionString: "${host}:${port}"
+- name: redis-cli
+  image: redis
+  args: "redis-cli -h redis MONITOR"
