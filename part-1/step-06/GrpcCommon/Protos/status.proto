@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcService";
+
+package status;
+
+// The greeting service definition.
+service Status
+{
+  // Sends a greeting
+  rpc GetStatus (StatusRequest) returns (StatusResponse);
+}
+
+// The request message containing the user's name.
+message StatusRequest
+{
+}
+
+// The response message containing the greetings.
+message StatusResponse
+{
+  string message = 1;
+}

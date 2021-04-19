@@ -1,0 +1,1 @@
+﻿This directory is intentionally left empty. It is used in the Visual Studio solution to contain a link to a file in another project.

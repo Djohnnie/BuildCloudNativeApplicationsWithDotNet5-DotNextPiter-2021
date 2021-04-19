@@ -1,0 +1,8 @@
+name: cloudnative-webapi
+services:
+- name: webapi
+  project: WebApi/WebApi.csproj
+- name: grpc
+  project: GrpcService/GrpcService.csproj
+- name: worker-service
+  project: WorkerService/WorkerService.csproj
