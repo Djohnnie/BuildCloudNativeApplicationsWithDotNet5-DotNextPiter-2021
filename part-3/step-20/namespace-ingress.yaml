@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ingress
+  resourceVersion: "144"
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
