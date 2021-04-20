@@ -1,0 +1,8 @@
+name: cloudnative-webapi
+services:
+- name: webapi
+  project: WebApi/WebApi.csproj
+- name: worker-service
+  project: WorkerService/WorkerService.csproj
+- name: web
+  project: Web/Web.csproj

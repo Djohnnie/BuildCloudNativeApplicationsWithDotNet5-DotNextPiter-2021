@@ -1,0 +1,32 @@
+﻿@model Web.Models.RequestData
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <br>
+    <br>
+    <br>
+
+    <div id="request-data">
+        @Html.Partial("_RequestData", Model)
+    </div>
+
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+
+      $(document).ready(function ()
+      {
+        setInterval(function()
+        {
+          $('#request-data').load('/Home/RequestData');
+        }, 500);
+      });
+
+    </script>
+}

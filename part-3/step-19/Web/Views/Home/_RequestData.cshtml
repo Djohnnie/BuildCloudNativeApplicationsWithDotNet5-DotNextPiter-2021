@@ -1,0 +1,24 @@
+﻿@model Web.Models.RequestData
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Machine name</th>
+            <th scope="col">Number of responses</th>
+            <th scope="col">Hit percentage</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var entry in Model.Entries)
+        {
+            <tr>
+                <td>@entry.MachineName</td>
+                <td>@entry.Occurences</td>
+                <td>@String.Format("{0:N2}", entry.Percentage) %</td>
+            </tr>
+
+        }
+
+    </tbody>
+</table>
