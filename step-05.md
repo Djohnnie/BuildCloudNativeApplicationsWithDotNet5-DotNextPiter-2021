@@ -2,6 +2,8 @@
 
 [Previous step](step-04.md) - [Next step](step-06.md)
 
+[Link to example code inside this repository](part-1/step-05/)
+
 You can use Visual Studio Code to create a new .NET 5 gRPC Service project:
 
 ![image](images/sshot-01.png)

@@ -2,6 +2,8 @@
 
 [Previous step](step-02.md) - [Next step](step-04.md)
 
+[Link to example code inside this repository](part-1/step-03/)
+
 Install [Project Tye](https://github.com/dotnet/tye/blob/main/docs/getting_started.md) on your local system:
 
 ```

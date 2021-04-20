@@ -2,6 +2,8 @@
 
 [Next step](step-02.md)
 
+[Link to example code inside this repository](part-1/step-01/)
+
 You can use Visual Studio Code to create a new .NET 5 WebApi project:
 
 ![image](images/sshot-01.png)

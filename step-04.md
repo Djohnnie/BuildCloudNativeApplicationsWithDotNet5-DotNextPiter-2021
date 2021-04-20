@@ -2,6 +2,8 @@
 
 [Previous step](step-03.md) - [Next step](step-05.md)
 
+[Link to example code inside this repository](part-1/step-04/)
+
 Add a custom configuration manager class to your Worker project:
 
 [MyConfiguration.cs](part-1/step-04/WorkerService/MyConfiguration.cs)

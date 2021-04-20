@@ -2,6 +2,8 @@
 
 [Previous step](step-01.md) - [Next step](step-03.md)
 
+[Link to example code inside this repository](part-1/step-02/)
+
 You can use Visual Studio Code to create a new .NET 5 Worker Service project:
 
 ![image](images/sshot-01.png)
