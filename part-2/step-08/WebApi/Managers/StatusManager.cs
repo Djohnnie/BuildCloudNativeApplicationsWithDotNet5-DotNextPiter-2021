@@ -26,7 +26,7 @@ namespace WebApi.Managers
 
             if (string.IsNullOrEmpty(cachedMachineName))
             {
-                cachedMachineName = $"{DateTime.UtcNow:HH:mm}-{Environment.MachineName}";
+                cachedMachineName = $"{DateTime.UtcNow:HH:mm:ss}-{Environment.MachineName}";
 
                 await _distributedCache.SetStringAsync("machine-name", cachedMachineName, new DistributedCacheEntryOptions
                 {

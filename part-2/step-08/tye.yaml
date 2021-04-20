@@ -11,4 +11,4 @@ services:
     connectionString: "${host}:${port}"
 - name: redis-cli
   image: redis
-  args: "redis-cli -h redis MONITOR"
+  args: "redis-cli -h redis-cache MONITOR"
