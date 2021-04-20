@@ -28,22 +28,22 @@ az account set -s <SubscriptionId>
 
 From Visual Studio, use the Ctrl+Shift+P keyboard shortcut to open the Command Palette and find Azure: Sign In to link your Visual Studio code instance with your azure login:
 
-![Azure: Sign In from Visual Studio Code](sshot-45.png)
+![Azure: Sign In from Visual Studio Code](images/sshot-45.png)
 
 Your browser will open and you need to login using the Microsoft account linked to your Azure subscription:
 
-![Microsoft Account](sshot-46.png)
+![Microsoft Account](images/sshot-46.png)
 
 If your login was successful, you should be presented with a success screen:
 
-![Azure: Sign In from Visual Studio Code](sshot-47.png)
+![Azure: Sign In from Visual Studio Code](images/sshot-47.png)
 
 Use the Command Palette in Visual Studio once more to select the active subscription:
 
-![Azure: Sign In from Visual Studio Code](sshot-48.png)
+![Azure: Sign In from Visual Studio Code](images/sshot-48.png)
 
 Inside the Visual Studio Code IDE, you can have multiple subscriptions active. Use the checkboxes to make your selections:
 
-![Azure: Sign In from Visual Studio Code](sshot-49.png)
+![Azure: Sign In from Visual Studio Code](images/sshot-49.png)
 
 [Previous step](step-09.md) - [Next step](step-11.md)

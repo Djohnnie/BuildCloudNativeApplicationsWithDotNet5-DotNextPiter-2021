@@ -108,7 +108,7 @@ ENTRYPOINT ["dotnet", "WorkerService.dll"]
 Build the Dockerfile to an image and run it like before:
 
 ![image](images/sshot-42.png)
-
+git add 
 Right-click the running container to see the logging:
 
 ![image](images/sshot-43.png)
